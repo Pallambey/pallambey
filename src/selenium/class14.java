@@ -17,7 +17,7 @@ package selenium;
 		}
 		@Test
 		void login(String user, String pass) throws InterruptedException {
-			Thread.sleep(1000);
+			Thread.sleep(5000);
 			WebElement un=driver.findElement(By.xpath("//input[@name=\"username\"]"));
 			un.sendKeys(user);
 			
